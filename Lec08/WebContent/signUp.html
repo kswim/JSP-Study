@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Member Sign up</title>
+</head>
+<body>
+
+	<form action="mSignUp" method="post">
+		name: <input type="text" name="m_name"><br>
+		password: <input type="text" name="m_pass"><br>
+		gender: Man<input type="radio" name="m_gender" value="M">,
+				Woman<input type="radio" name="m_gender" value="W"><br>
+		hobby: sports<input type="checkbox" name="m_bobby" value="sports">,
+			     Cooking<input type="checkbox" name="m_bobby" value="Cooking">,
+			     Reading<input type="checkbox" name="m_bobby" value="Reading">,
+			     Travel<input type="checkbox" name="m_bobby" value="Travel"><br>
+		residence: <select name = "m_residence">
+                            <option value="seoul">seoul</option>
+                            <option value="Gyeongggi">Gyeongggi</option>
+                            <option value="Jeju">Jeju</option>
+                            <option value="Gyeongsang">Gyeongsang</option>
+                    </select><br>
+        <input type="submit" value="sign up">
+	</form>
+
+</body>
+</html>
